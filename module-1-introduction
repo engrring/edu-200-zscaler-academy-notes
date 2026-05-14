@@ -1,0 +1,39 @@
+# Module 1: Introduction to Zscaler
+
+## Overview
+Zscaler is a cloud-based security platform built on the Zero Trust model. It provides secure access to internet and internal applications without relying on traditional VPNs.
+
+---
+
+## Key Concepts
+- Cloud-native security platform
+- Eliminates need for on-prem firewalls
+- Access is based on identity and context
+
+---
+
+## Core Services
+- **ZIA (Zscaler Internet Access)** – Secure internet and SaaS access
+- **ZPA (Zscaler Private Access)** – Secure internal application access
+
+---
+
+## Zero Trust Model
+- Never trust, always verify
+- Access depends on:
+  - User identity
+  - Device posture
+  - Location
+
+---
+
+## Key Takeaways
+- Security is delivered from the cloud
+- No more VPN dependency
+- Better user experience and scalability
+
+---
+
+## My Notes
+- Review ZIA vs ZPA differences
+- Focus on Zero Trust concepts
