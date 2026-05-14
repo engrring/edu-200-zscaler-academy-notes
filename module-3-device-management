@@ -1,0 +1,76 @@
+# Module 3: Device Management
+
+## Overview
+Device management in Zscaler ensures that only secure and compliant devices are allowed access to applications and services based on Zero Trust principles.
+
+---
+
+## 🔑 Key Concepts
+- Device posture determines access level
+- Uses Zscaler Client Connector (ZCC)
+- Enables Zero Trust security enforcement
+
+---
+
+## 🖥️ Zscaler Client Connector (ZCC)
+- Installed on endpoints (laptops, mobile devices)
+- Routes traffic to Zscaler cloud
+- Collects real-time device posture data
+- Works on and off network
+
+---
+
+## 🧩 Device Posture Checks
+Used to verify device compliance before allowing access.
+
+### Examples:
+- Operating system version
+- Antivirus installed and running
+- Disk encryption enabled
+- Firewall enabled
+- Device domain-joined
+
+---
+
+## 📊 Posture Profiles
+- Set of rules defining device requirements
+- Used in policy enforcement
+
+### Example Policy:
+Access allowed ONLY if:
+- Device is corporate-managed
+- Antivirus is active
+- Disk encryption is enabled
+
+---
+
+## 🔒 Policy Enforcement
+Access can be controlled based on:
+
+- User identity
+- Device posture
+- Location
+
+### Example:
+- Managed device → Full access
+- Unmanaged device → Limited or blocked
+
+---
+
+## 🔐 Zero Trust Approach
+- Never trust devices by default
+- Always verify device compliance before granting access
+
+---
+
+## 🧠 Key Takeaways
+- Device posture is critical in access control
+- ZCC is required for device-based policies
+- Helps prevent access from insecure endpoints
+
+---
+
+## 📝 My Notes
+- Practice configuring posture profiles
+- Test device compliance scenarios
+- Review ZCC deployment steps
