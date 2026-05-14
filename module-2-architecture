@@ -1,0 +1,26 @@
+# Module 2: Zscaler Architecture
+
+## Overview
+Zscaler architecture is built as a cloud-native, globally distributed platform that delivers security as a service. It eliminates the need for traditional data center-based security.
+
+---
+
+## 🔑 Key Concepts
+- Multi-tenant cloud architecture
+- Globally distributed data centers
+- Security enforcement in the cloud
+- No need for traffic backhauling
+
+---
+
+## 🌍 Core Components
+
+### Zscaler Cloud
+- Central platform where all security processing happens
+- Hosted across multiple global data centers
+
+### Enforcement Nodes
+- Inspect and secure user traffic
+- Apply policies and security controls
+
+### Zscaler Client Connector (ZCC)
